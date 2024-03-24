@@ -7,20 +7,20 @@ Haiti Outreach Activities
 ## Adopt-a-well page
 
 1. financial status (add)
-
+---------------------------> I don't see the relation with the SAEP - rapport mensuelle
    - cpe revenue
    - cpe expenses
    - cpe savings
 
 2. financial status (change)
 
-   - cost/user
-   - budget/user
-   - actual cost / user
-   - total budget
-   - Well Name
+   - cost/user (done)
+   - budget/user (done)
+   - actual cost / user (done)
+   - total budget (done)
+   - Well Name (done)
 
-3. Add to the funder for the Adopt-a-Well
+3. Add to the funder for the Adopt-a-Well (done)
 
 ## At a later date > Adopt-a-well page
 
