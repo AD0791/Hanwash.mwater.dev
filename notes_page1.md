@@ -6,11 +6,12 @@ Haiti Outreach Activities
 
 ## Adopt-a-well page
 
-1. financial status (add)
----------------------------> I don't see the relation with the SAEP - rapport mensuelle
-   - cpe revenue
-   - cpe expenses
-   - cpe savings
+1. financial status (add) -----> rely on the FRAPE survey
+   ---------------------------> I don't see the relation with the SAEP - rapport mensuelle
+
+   - cpe revenue (done)
+   - cpe expenses (done)
+   - cpe savings (done)
 
 2. financial status (change)
 
