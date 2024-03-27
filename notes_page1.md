@@ -1,5 +1,4 @@
-# Adjustments or Requirements Hanwash Activities Project
-
+# Adjustments or Requirements Adopt-a-Well in Cavaillon
 ---
 
 Haiti Outreach Activities
@@ -26,3 +25,6 @@ Haiti Outreach Activities
 ## At a later date > Adopt-a-well page
 
 1. At a later date, you might consider creating a separate Inauguration/Current Events Dashboard. There are numerous pictures from the celebrations which would fun to share with other projects and volunteer communities, more of a public relations focus.
+
+## Summary for the console
+
