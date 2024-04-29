@@ -17,6 +17,7 @@ http://go.mwater.co/hanwash
 - IMP events other segment for the event tracking (monitoring et training) (done)
 - better formula for the potability (on-act)
 - map commune action plan (done)
+
 ---
 
 - for presentation => focus on english version (on-act)
