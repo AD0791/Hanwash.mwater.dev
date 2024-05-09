@@ -23,5 +23,5 @@ http://go.mwater.co/hanwash
 
 **Objectif Immediat :**
 
-1. C1 - Adopt a Well (-)
+1. C1 - Adopt a Well (in)
 2. C3 - CAP (done)
