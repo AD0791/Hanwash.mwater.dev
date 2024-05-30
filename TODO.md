@@ -10,6 +10,10 @@
 
 -> Training sessions **[in action]**
 
+-> corrections and adjustements for the Training Materials
+
+-> prep the meeting
+
 ## By the third week of June (June 21)
 
 • One console is created on mWater to view/query data associated with the operation of the water systems rehabilitated by HANWASH, particularly the Pignon town water utility.
