@@ -1,4 +1,4 @@
-# potability rate
+## potability rate
 
 > formula changes \[before\]\[after\]
 
@@ -11,6 +11,6 @@
 7. Pakwa \[1\]\[1\]
 
 
-# functionality status
+## functionality status
 
 > formula was changed
