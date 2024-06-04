@@ -9,8 +9,8 @@
 • The training materials associated with the Adopt-A-Well console and the Commune Action Plan Console are completed and two training sessions are delivered to the HANWASH volunteers (one foreach console) **[in action]**
 
 -> Training sessions **[in action]**
--> corrections and adjustements for the Training Materials **[in action]**
--> prep the meeting **[in action]**
+-> corrections and adjustements for the Training Materials **(done)**
+-> D7020 **(done)** + Haiti Liaison **(done)** + M&E subcommitee
 
 ## By the third week of June (June 21)
 
