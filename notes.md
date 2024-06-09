@@ -53,3 +53,9 @@ You get the project done.
 
 6 Rapports d'entretien des puits sont enregistrés avec l'enquête sur les rapports d'entretien des puits, nous examinons les résultats du taux de fonctionnalité (à partir de cette enquête) et nous disposons des données pour toutes les activités menées sur les forages/puits.
 
+## Order
+
+- Add a slide in the user guide to show how to create a mWater account and ask the mWater Developer for access to the console;
+- Accessibility for the console;
+- Data Quality pour Gwayav about the functionality of the Console;
+

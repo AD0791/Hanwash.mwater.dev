@@ -11,6 +11,7 @@
 -> Training sessions **[in action]**
 -> corrections and adjustements for the Training Materials **(done)**
 -> D7020 **(done)** + Haiti Liaison **(done)** + M&E subcommitee
+-> The HW struct in mWater => Permissions to access the AAW console **(done)**
 
 ## By the third week of June (June 21)
 
