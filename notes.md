@@ -11,11 +11,12 @@
 **DONE** build the data grids.
 **DONE** Dinepa indicator guide walkthrough.
 **DONE** Revamp the CAP console with example of HO et Steve.
-**None-Factor** which indicateur dinepa available nan data grids (presentation).
+**DONE** Revamp the CAP console presentations.
 
-**ONGOING** Revamp the CAP console presentations.
+## RPA
 
+TODO adjustements over the AAW console (get->moreDetails)
+**Factor** which indicateur dinepa available nan data grids (presentation).
 TODO turn usable grids.
 TODO Pignon Town utilities console work.
 
-> might need to review the aaw user guides again.
