@@ -15,21 +15,22 @@
 
 ## RPA
 
-TODO adjustements over the AAW console (get->moreDetails)
-**Factor** which indicateur dinepa available nan data grids (presentation).
-TODO turn usable grids.
+**ok** which indicateur dinepa available nan data grids (presentation).
 TODO Pignon Town utilities console work.
 
 
 ## AAW correction 
 
 Someone would like to have also those information:
-when the water was last tested and the results,? Total amount of money collected for maintenance and repairs for each Adopt A Well? Last date data was uploaded by the Water Point Committee?
+
+- when the water was last tested and the results? 
+- Total amount of money collected for maintenance and repairs for each Adopt A Well? 
+- Last date data was uploaded by the Water Point Committee?
 
 ## CAP correction
 
-Nou te di tou nou t ap afiche tou anba console la lis entevansyon ki planifye yo avek status yo.
+- Nou te di tou nou t ap afiche tou anba console la lis entevansyon ki planifye yo avek status yo.
 
-Kreye column nan epi mete data pou essai ladanl annatandan. Par egzanp: 010101
+- Kreye column nan epi mete data pou essai ladanl annatandan. Par egzanp: 010101
 
-Enfo nou gen la yo bon wi paske yo se yon agregasyon de sa ki planifye epi ki fet deja yo. Men m panse tou, nou te ka bay moun yo detay sou lis puits oswa Water system nou completed yo, sa ki en cours ak sa ki planned. Sa t ap mande pou ou genyen yon filter an plis sou "implementation status a"
+- Enfo nou gen la yo bon wi paske yo se yon agregasyon de sa ki planifye epi ki fet deja yo. Men m panse tou, nou te ka bay moun yo detay sou lis puits oswa Water system nou completed yo, sa ki en cours ak sa ki planned. Sa t ap mande pou ou genyen yon filter an plis sou "implementation status a"
