@@ -31,13 +31,13 @@ Although the data is messy. We need tp structure the console with these paramete
 ### Dinepa indicators
 
 1. General Information
-    - Name of the CTE
-    - Zone
-    - Type de Gestion
-    - Periode du Rapport (Annee, periode)
+    - Name of the CTE [done]
+    - Zone [done]
+    - Type de Gestion [done]
+    - Periode du Rapport (Annee, periode) [done]
 2. Service Quality
-    - Nbre employe cte
-    - Nbre employe OP
+    - Nbre employe cte [done]
+    - Nbre employe OP [done]
     - Population concerne (estimation)
     - Population de la ville
     - Tariff de l'eau en volume $$(htg/m^{3})$$
@@ -49,7 +49,7 @@ Although the data is messy. We need tp structure the console with these paramete
     - Nombre de facture impayees dans le mois (hors arrieres)
     - Montant cumule des factures arrierees (HTG)
 3. Gestion du reseau
-    - Capacite de production operarionnelle $$(m^3/Mois)$$
+    - Capacite de pro                                                                                   duction operarionnelle $$(m^3/Mois)$$
     - Nombre de reservoir
     - Nombre de kiosques avec compteurs
     - Nombre de kiosques sans compteurs
