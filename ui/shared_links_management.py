@@ -12,13 +12,13 @@ mwater_data = {
         'HANWASH Overall Performance Dashboard'
     ],
     'shared_links': [
-        'https://share.mwater.co/v3/console_link/145f59f97cd64e5e86fab7ecf98530ad?share=4ed30ce04ed7410e8a987ac55e480697',
-        '',  # Placeholder for Cavaillon Dashboard link
-        '',  # Placeholder for Leogane Dashboard link
-        '',  # Placeholder for Terre-Neuve Dashboard link
-        '',  # Placeholder for Ferrier Dashboard link
-        '',  # Placeholder for Pignon Dashboard link
-        ''   # Placeholder for HANWASH Overall Performance Dashboard link
+        'https://go.mwater.co/monitoring_and_evaluation',
+        'https://go.mwater.co/cavaillon',  # Placeholder for Cavaillon Dashboard link
+        'https://go.mwater.co/leogane',  # Placeholder for Leogane Dashboard link
+        'https://go.mwater.co/terre_neuve',  # Placeholder for Terre-Neuve Dashboard link
+        'https://go.mwater.co/ferrier',  # Placeholder for Ferrier Dashboard link
+        'https://go.mwater.co/pignon',  # Placeholder for Pignon Dashboard link
+        'https://go.mwater.co/overall_perfromance'   # Placeholder for HANWASH Overall Performance Dashboard link
     ],
     'authorization': [
         'M&E Team',
