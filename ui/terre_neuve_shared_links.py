@@ -16,9 +16,9 @@ terre_neuve_data = {
     'shared_links': [
         '',  # Placeholder for Commune Action Plan link
         '',  # Placeholder for Project performance link
-        '',  # Placeholder for Service providers' performance link
-        '',  # Placeholder for Investment status link
-        '',  # Placeholder for Lessons Learned link
+        '---',  # Placeholder for Service providers' performance link
+        '---',  # Placeholder for Investment status link
+        '---',  # Placeholder for Lessons Learned link
         #'',  # Placeholder for Global Grants link
         #'',  # Placeholder for Adopt A Well link
         #'',  # Placeholder for CPEs link

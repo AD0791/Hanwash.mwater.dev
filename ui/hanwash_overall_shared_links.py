@@ -3,20 +3,20 @@ import pandas as pd
 # Dictionary to store the table data for HANWASH Overall Performance
 hanwash_overall_data = {
     'title': [
-        'HANWASH Logframe',
+        'HANWASH Logframe & indicators progression',
         'Commune Action Plans',
-        'Progress towards the indicators',
+        #'Progress towards the indicators',
         'Investment status',
         'Lessons Learned'
     ],
     'shared_links': [
-        '',  # Placeholder for HANWASH Logframe link
-        '',  # Placeholder for Commune Action Plans link
-        '',  # Placeholder for Progress towards the indicators link
-        '',  # Placeholder for Investment status link
-        ''   # Placeholder for Lessons Learned link
+        'https://go.mwater.co/logframe_and_indicators',  # Placeholder for HANWASH Logframe link
+        'https://go.mwater.co/commune_action_plan',  # Placeholder for Commune Action Plans link
+        #'',  # Placeholder for Progress towards the indicators link
+        '---',  # Placeholder for Investment status link
+        '---'   # Placeholder for Lessons Learned link
     ],
-    'authorization': ['HANWASH USER'] * 5  # All have the same authorization
+    'authorization': ['HANWASH USER'] * 4  # All have the same authorization
 }
 
 # Create a pandas DataFrame
@@ -29,7 +29,7 @@ df['combined'] = df['title'] + ': ' + df['shared_links']
 print(df)
 
 # Export to Excel
-excel_file = './EDA/hanwash_overall_sharedlinks.xlsx'
+excel_file = './ui/components/hanwash_overall_sharedlinks.xlsx'
 df.to_excel(excel_file, index=False)
 print(f"\nData exported to {excel_file}")
 
