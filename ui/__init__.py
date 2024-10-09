@@ -12,6 +12,7 @@ def run_script(script_name):
 
 def main():
     scripts = [
+        "watch_consoles",
         "shared_links_management",
         "cavaillon_shared_links",
         "leogane_shared_links",

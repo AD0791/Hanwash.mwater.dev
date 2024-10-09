@@ -14,8 +14,8 @@ terre_neuve_data = {
         #'Professional Operators'
     ],
     'shared_links': [
-        '',  # Placeholder for Commune Action Plan link
-        '',  # Placeholder for Project performance link
+        'https://go.mwater.co/terre_neuve_cap',  # Placeholder for Commune Action Plan link
+        '---',  # Placeholder for Project performance link
         '---',  # Placeholder for Service providers' performance link
         '---',  # Placeholder for Investment status link
         '---',  # Placeholder for Lessons Learned link
