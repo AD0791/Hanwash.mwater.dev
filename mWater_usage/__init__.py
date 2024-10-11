@@ -2,8 +2,11 @@ import pandas as pd
 import os
 
 # Load the Excel file
+activity_file_path = './mWater_usage/ActivitySummary_101024 .csv'
 file_path = './mWater_usage/username_hanwash_mwater.xlsx'
 data = pd.read_excel(file_path)
+# Load the new activity dataset (from CSV)
+activity_data = pd.read_csv(activity_file_path)
 
 # Clean up the HTML escape characters (e.g., `-&gt;` becomes `->`)
 data['Branch'] = data['Branch'].str.replace('&gt;', '>')
@@ -24,6 +27,17 @@ for committee in unique_committees:
 # Drop the temporary 'Committees' column for tidiness
 data.drop(columns=['Committees'], inplace=True)
 
+
+# Merge the previous dataset with the activity data based on 'Username'
+merged_data = pd.merge(data, 
+                       activity_data[['Username', 'Last Activity', 'App Activity 7 days', 'Portal Activity 7 days']],
+                       on='Username', how='left')
+
+# Fill any NaN values with forward fill (or any available data)
+# Forward fill any missing data in the merged dataset
+merged_data.ffill(inplace=True)
+
+
 # Create a 'reports' directory if it doesn't exist
 output_dir = './mWater_usage/reports'
 if not os.path.exists(output_dir):
@@ -33,6 +47,6 @@ if not os.path.exists(output_dir):
 output_file = os.path.join(output_dir, 'user_mwater_data.xlsx')
 
 # Export the final table to Excel
-data.to_excel(output_file, index=False)
+merged_data.to_excel(output_file, index=False)
 
 print(f"Final table exported to: {output_file}")
