@@ -1,5 +1,8 @@
 import pandas as pd
 
+
+url_saep_pignon = "https://go.mwater.co/pignon_saep" 
+
 # Dictionary to store the table data for Pignon
 pignon_data = {
     'title': [
