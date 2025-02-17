@@ -1,0 +1,37 @@
+{
+"data_quality_issues": [
+    {
+    "name": "Incomplete Data",
+    "definition": "Missing or partial data fields due to entry errors or collection issues"
+    },
+    {
+    "name": "Inaccurate Data", 
+    "definition": "Errors or inconsistencies in data values from human error or integration issues"
+    },
+    {
+    "name": "Duplicate Data",
+    "definition": "Repeated records causing redundancy from multiple sources or incomplete cleaning"
+    },
+    {
+    "name": "Inconsistent Data",
+    "definition": "Lack of uniformity in format or structure across records"
+    },
+    {
+    "name": "Invalid Data",
+    "definition": "Data not conforming to validation rules or integrity checks"
+    },
+    {
+    "name": "Outdated Data",
+    "definition": "Non-current information that no longer reflects reality"
+    },
+    {
+    "name": "Biased Data",
+    "definition": "Skewed data representation due to sampling errors or systemic inequalities"
+    },
+    {
+    "name": "Data Security and Privacy Issues",
+    "definition": "Concerns about data protection, confidentiality, and regulatory compliance"
+    }
+]
+}
+
