@@ -1,0 +1,12 @@
+Asset (Spot/CFD),Micro Futures Equivalent,Ticker Symbol,Exchange,Notes
+XAU/USD (Gold),Micro Gold Futures,/MGC,CME,"Contract size is 10 troy ounces, which is 1/10th the size of the standard gold contract."
+XAG/USD (Silver),Micro Silver Futures,/SIL,CME,"Contract size is 1,000 troy ounces."
+XTI/USD (WTI Crude Oil),Micro WTI Crude Oil Futures,/MCL,CME,"Contract size is 100 barrels, which is 1/10th the size of the standard WTI contract."
+USD/MXN,No Micro Futures Found,/6M (Standard),CME,"A micro version is not currently offered for the Mexican Peso. The standard contract represents 500,000 Mexican Pesos."
+USD/JPY,Micro USD/JPY Futures,/M6J,CME,"Contract size is $10,000 USD. Note there is also a Micro JPY/USD (/MJY) contract available."
+GBP/JPY,No Micro Futures Found,/PJY (Standard),CME,"A micro version for this currency cross-rate was not found. Standard-sized contracts are available on exchanges like CME and ICE."
+AUD/JPY,No Micro Futures Found,/AJY (Standard),CME,"A micro version for this currency cross-rate was not found. Standard-sized contracts are available on exchanges like CME and Eurex."
+AUD/USD,Micro AUD/USD Futures,/M6A,CME,"Contract size is 10,000 Australian Dollars."
+BTC/USD,Micro Bitcoin Futures,/MBT,CME,"Contract size is 0.1 bitcoin, making it 1/50th the size of the standard Bitcoin contract."
+ETH/USD,Micro Ether Futures,/MET,CME,"Contract size is 0.1 ether, making it 1/500th the size of the standard Ether contract."
+SOL/USD,Micro Solana Futures,/MSL,CME,"Contract size is 25 SOL."
