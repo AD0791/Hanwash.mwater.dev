@@ -1,42 +1,42 @@
-Grant,Funder,District,Amount
-GG1984515,"District Designated Fund (DDF)",6960,30500
-GG1984515,"District Designated Fund (DDF)",6950,3500
-GG1984515,"Cash from Club - Big Sky",,2500
-GG1984515,"Cash from Club - Barboursville",,550
-GG1984515,"Cash from Club - Athens",,1000
-GG1984515,"Cash from Club - Kingston-North Kitsap",,1000
-GG1984515,"District Designated Fund (DDF)",6970,10000
-GG1984515,"District Designated Fund (DDF)",6940,10000
-GG1984515,"District Designated Fund (DDF)",7570,15000
-GG1984515,"District Designated Fund (DDF)",3510,10000
-GG1984515,"Cash from district",6970,3450
-GG1984515,"Cash from Club - The Skylands",,10000
-GG1984515,"Cash from district",6960,1000
-GG1984515,"Cash from Club - Naples",,2000
-GG1984515,"Cash from district",6930,5000
-GG1984515,"District Designated Fund (DDF)",3450,10000
-GG2014851,"District Designated Fund (DDF)",6960,24379
-GG2014851,"District Designated Fund (DDF)",7720,20000
-GG2014851,"District Designated Fund (DDF)",7430,20000
-GG2014851,"District Designated Fund (DDF)",6930,15000
-GG2014851,"District Designated Fund (DDF)",6910,15000
-GG2014851,"District Designated Fund (DDF)",6200,10000
-GG2014851,"District Designated Fund (DDF)",5130,2000
-GG2014851,"Cash from Club - Boca Raton",,2380
-GG2014851,"Cash from Club - Wellington",,1904
-GG2014851,"Cash from Club - Greater Lake Charles",,2000
-GG2014851,"Non-Rotarian contributions with NO match from TRF - John Vollmer",,20000
-GG2123289,"Cash from Club - Wenatchee",,9524
-GG2123289,"Cash from Club - Okanogan-Omak",,1905
-GG2123289,"District Designated Fund (DDF)",5060,58247
-GG2123289,"District Designated Fund (DDF)",7890,5600
-GG2123289,"The Rotary Foundation Donor Advised Fund - WASHRAG-427",,2000
-GG2123673,"District Designated Fund (DDF)",6940,66200
-GG2123673,"Cash from district",6940,17000
-GG2123673,"Cash from Club - Pignon",,500
-GG2123673,"District Designated Fund (DDF)",7020,2000
-GG2123673,"The Rotary Foundation Donor Advised Fund - WASH RAG-427",,2000
-GG2233682,"District Designated Fund (DDF)",6960,15000
-GG2233682,"District Designated Fund (DDF)",5170,3686
-GG2233682,"Cash from Club - Cayes",,1000
-GG2233682,"Non-Rotarian contributions with NO match from TRF - WASRAG",,2000
+"Project ID","Project Title","Total Budget","Amount Invested","Remaining Amount","Funder","Funder Type","Funder Amount","Status"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","District 6960","District Designated Fund (DDF)","30500","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","District 6950","District Designated Fund (DDF)","3500","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","Big Sky Rotary Club","Cash from Club","2500","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","Barboursville Rotary Club","Cash from Club","550","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","Athens Rotary Club","Cash from Club","1000","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","Kingston-North Kitsap Rotary Club","Cash from Club","1000","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","District 6970","District Designated Fund (DDF)","10000","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","District 6940","District Designated Fund (DDF)","10000","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","District 7570","District Designated Fund (DDF)","15000","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","District 3510","District Designated Fund (DDF)","10000","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","District 6970","Cash from District","3450","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","The Skylands Rotary Club","Cash from Club","10000","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","District 6960","Cash from District","1000","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","Naples Rotary Club","Cash from Club","2000","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","District 6930","Cash from District","5000","Approved"
+"GG1984515","Cavaillon Water and Hygiene Education Program","217750","217750","0","District 3450","District Designated Fund (DDF)","10000","Approved"
+"GG2014851","Cavaillon Downtown Potable Water Project","331378","331378","0","District 6960","District Designated Fund (DDF)","24379","Approved"
+"GG2014851","Cavaillon Downtown Potable Water Project","331378","331378","0","District 7720","District Designated Fund (DDF)","20000","Approved"
+"GG2014851","Cavaillon Downtown Potable Water Project","331378","331378","0","District 7430","District Designated Fund (DDF)","20000","Approved"
+"GG2014851","Cavaillon Downtown Potable Water Project","331378","331378","0","District 6930","District Designated Fund (DDF)","15000","Approved"
+"GG2014851","Cavaillon Downtown Potable Water Project","331378","331378","0","District 6910","District Designated Fund (DDF)","15000","Approved"
+"GG2014851","Cavaillon Downtown Potable Water Project","331378","331378","0","District 6200","District Designated Fund (DDF)","10000","Approved"
+"GG2014851","Cavaillon Downtown Potable Water Project","331378","331378","0","District 5130","District Designated Fund (DDF)","2000","Approved"
+"GG2014851","Cavaillon Downtown Potable Water Project","331378","331378","0","Boca Raton Rotary Club","Cash from Club","2380","Approved"
+"GG2014851","Cavaillon Downtown Potable Water Project","331378","331378","0","Wellington Rotary Club","Cash from Club","1904","Approved"
+"GG2014851","Cavaillon Downtown Potable Water Project","331378","331378","0","Greater Lake Charles Rotary Club","Cash from Club","2000","Approved"
+"GG2014851","Cavaillon Downtown Potable Water Project","331378","331378","0","John Vollmer","Non-Rotarian Contribution","20000","Approved"
+"GG2123289","Ferrier-Artaud Potable Water Project","490355","490355","0","Wenatchee Rotary Club","Cash from Club","9524","Submitted"
+"GG2123289","Ferrier-Artaud Potable Water Project","490355","490355","0","Okanogan-Omak Rotary Club","Cash from Club","1905","Submitted"
+"GG2123289","Ferrier-Artaud Potable Water Project","490355","490355","0","District 5060","District Designated Fund (DDF)","58247","Submitted"
+"GG2123289","Ferrier-Artaud Potable Water Project","490355","490355","0","District 7890","District Designated Fund (DDF)","5600","Submitted"
+"GG2123289","Ferrier-Artaud Potable Water Project","490355","490355","0","WASHRAG-427","The Rotary Foundation Donor Advised Fund","2000","Submitted"
+"GG2123673","Improving Clean Water Access in Pignon Haiti","302525","302525","0","District 6940","District Designated Fund (DDF)","66200","Approved"
+"GG2123673","Improving Clean Water Access in Pignon Haiti","302525","302525","0","District 6940","Cash from District","17000","Approved"
+"GG2123673","Improving Clean Water Access in Pignon Haiti","302525","302525","0","Pignon Rotary Club","Cash from Club","500","Approved"
+"GG2123673","Improving Clean Water Access in Pignon Haiti","302525","302525","0","District 7020","District Designated Fund (DDF)","2000","Approved"
+"GG2123673","Improving Clean Water Access in Pignon Haiti","302525","302525","0","WASH RAG-427","The Rotary Foundation Donor Advised Fund","2000","Approved"
+"GG2233682","Cavallion Clean Water Project","309051","309051","0","District 6960","District Designated Fund (DDF)","15000","Approved"
+"GG2233682","Cavallion Clean Water Project","309051","309051","0","District 5170","District Designated Fund (DDF)","3686","Approved"
+"GG2233682","Cavallion Clean Water Project","309051","309051","0","Cayes Rotary Club","Cash from Club","1000","Approved"
+"GG2233682","Cavallion Clean Water Project","309051","309051","0","WASRAG","Non-Rotarian Contribution","2000","Approved"
