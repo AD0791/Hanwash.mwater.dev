@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrected Bank Statement</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .page {
+            background-color: white;
+            width: 210mm;
+            min-height: 297mm;
+            margin: 2rem auto;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border: 1px solid #e5e7eb;
+        }
+        @media print {
+            body {
+                background-color: white;
+            }
+            .page {
+                width: 100%;
+                min-height: 0;
+                margin: 0;
+                box-shadow: none;
+                border: none;
+                page-break-after: always;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+        .buh-logo {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #1e3a8a; /* A deep blue color */
+        }
+        .buh-logo-check {
+            color: #16a34a; /* A green color for the checkmark */
+        }
+        th, td {
+            padding: 0.5rem 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        thead th {
+            background-color: #f9fafb;
+            font-weight: 600;
+            color: #374151;
+        }
+        .summary-table td {
+            border: none;
+            padding: 0.25rem 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Page 1: April 2025 -->
+    <div class="page">
+        <!-- Header -->
+        <header class="flex justify-between items-start mb-8">
+            <div>
+                <h1 class="buh-logo"><span class="buh-logo-check">✔</span>buh</h1>
+                <p class="text-lg font-semibold text-gray-700">Banque de l'Union Haïtienne</p>
+            </div>
+            <div class="text-right">
+                <p class="font-bold text-lg">ALEXANDRO DISLA</p>
+                <p class="text-gray-600">12, rue Saint-Louis Jeanty, route de Frere</p>
+            </div>
+        </header>
+
+        <!-- Account Info -->
+        <section class="grid grid-cols-2 gap-8 mb-8">
+            <div>
+                <table class="w-full text-sm">
+                    <tr><td class="font-semibold text-gray-800">Date du relevé:</td><td class="text-gray-600">Avril 2025</td></tr>
+                    <tr><td class="font-semibold text-gray-800">Numéro de compte:</td><td class="text-gray-600">14000027155</td></tr>
+                    <tr><td class="font-semibold text-gray-800">Monnaie:</td><td class="text-gray-600">USD</td></tr>
+                </table>
+            </div>
+            <div>
+                <table class="w-full text-sm">
+                    <tr><td class="font-semibold text-gray-800">Code Succursale:</td><td class="text-gray-600">HT0010014</td></tr>
+                    <tr><td class="font-semibold text-gray-800">Code SWIFT BUH:</td><td class="text-gray-600">BUHEHTPPXXX</td></tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Account Summary -->
+        <section class="mb-8">
+            <h2 class="text-xl font-semibold border-b pb-2 mb-4 text-gray-800">Résumé de Compte</h2>
+            <table class="w-full summary-table">
+                <tr>
+                    <td class="text-gray-600">Balance d'ouverture Avril 1st</td>
+                    <td class="text-right font-medium text-gray-800">0.71</td>
+                </tr>
+                <tr>
+                    <td class="text-gray-600">Total crédits</td>
+                    <td class="text-right font-medium text-green-600">1,566.76</td>
+                </tr>
+                 <tr>
+                    <td class="text-gray-600">Total débits</td>
+                    <td class="text-right font-medium text-red-600">(1,566.96)</td>
+                </tr>
+                <tr class="border-t">
+                    <td class="font-bold pt-2 text-gray-800">Balance de fermeture Avril 30th</td>
+                    <td class="text-right font-bold pt-2 text-gray-900">0.51</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Transactions -->
+        <section>
+            <h2 class="text-xl font-semibold border-b pb-2 mb-4 text-gray-800">Transactions</h2>
+            <table class="w-full text-sm">
+                <thead>
+                    <tr><th>Date</th><th>Description</th><th class="text-right">Débit</th><th class="text-right">Crédit</th><th class="text-right">Solde</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>04/07/25</td><td>Transfert SWIFT Recu</td><td class="text-right"></td><td class="text-right">281.00</td><td class="text-right">281.71</td></tr>
+                    <tr><td>04/07/25</td><td>Frais Transfert Swift Entrant</td><td class="text-right">29.00</td><td class="text-right"></td><td class="text-right">252.71</td></tr>
+                    <tr><td>04/08/25</td><td>Depot Cash En succursale</td><td class="text-right"></td><td class="text-right">40.00</td><td class="text-right">292.71</td></tr>
+                    <tr><td>04/08/25</td><td>Ventes Monnaies Etrangeres</td><td class="text-right">40.00</td><td class="text-right"></td><td class="text-right">252.71</td></tr>
+                    <tr><td>04/08/25</td><td>Retrait Cash en Succursale</td><td class="text-right">240.00</td><td class="text-right"></td><td class="text-right">12.71</td></tr>
+                    <tr><td>04/09/25</td><td>Transfert SWIFT Recu</td><td class="text-right"></td><td class="text-right">317.00</td><td class="text-right">329.71</td></tr>
+                    <tr><td>04/09/25</td><td>Frais Transfert Swift Entrant</td><td class="text-right">29.00</td><td class="text-right"></td><td class="text-right">300.71</td></tr>
+                    <tr><td>04/10/25</td><td>Envoi de Transfer</td><td class="text-right">272.00</td><td class="text-right"></td><td class="text-right">28.71</td></tr>
+                    <tr><td>04/10/25</td><td>Master Card Payment</td><td class="text-right">27.03</td><td class="text-right"></td><td class="text-right">1.68</td></tr>
+                    <tr><td>04/15/25</td><td>Transfert SWIFT Recu</td><td class="text-right"></td><td class="text-right">362.00</td><td class="text-right">363.68</td></tr>
+                    <tr><td>04/15/25</td><td>Frais Transfert Swift Entrant</td><td class="text-right">29.00</td><td class="text-right"></td><td class="text-right">334.68</td></tr>
+                    <tr><td>04/15/25</td><td>Envoi de Transfer</td><td class="text-right">157.34</td><td class="text-right"></td><td class="text-right">177.34</td></tr>
+                    <tr><td>04/15/25</td><td>Master Card Payment</td><td class="text-right">50.19</td><td class="text-right"></td><td class="text-right">127.15</td></tr>
+                    <tr><td>04/21/25</td><td>Master Card Payment</td><td class="text-right">17.00</td><td class="text-right"></td><td class="text-right">110.15</td></tr>
+                    <tr><td>04/21/25</td><td>Master Card Payment</td><td class="text-right">61.78</td><td class="text-right"></td><td class="text-right">48.37</td></tr>
+                    <tr><td>04/21/25</td><td>Master Card Payment</td><td class="text-right">46.33</td><td class="text-right"></td><td class="text-right">2.04</td></tr>
+                    <tr><td>04/22/25</td><td>Transfert SWIFT Recu</td><td class="text-right"></td><td class="text-right">247.51</td><td class="text-right">249.55</td></tr>
+                    <tr><td>04/22/25</td><td>Frais Transfert Swift Entrant</td><td class="text-right">29.00</td><td class="text-right"></td><td class="text-right">220.55</td></tr>
+                    <tr><td>04/23/25</td><td>Envoi de Transfer</td><td class="text-right">110.00</td><td class="text-right"></td><td class="text-right">110.55</td></tr>
+                    <tr><td>04/23/25</td><td>Master Card Payment</td><td class="text-right">54.05</td><td class="text-right"></td><td class="text-right">56.50</td></tr>
+                    <tr><td>04/23/25</td><td>Master Card Payment</td><td class="text-right">54.05</td><td class="text-right"></td><td class="text-right">2.45</td></tr>
+                    <tr><td>04/28/25</td><td>Transfert SWIFT Recu</td><td class="text-right"></td><td class="text-right">319.25</td><td class="text-right">321.70</td></tr>
+                    <tr><td>04/28/25</td><td>Frais Transfert Swift Entrant</td><td class="text-right">29.00</td><td class="text-right"></td><td class="text-right">292.70</td></tr>
+                    <tr><td>04/28/25</td><td>Envoi de Transfer</td><td class="text-right">146.00</td><td class="text-right"></td><td class="text-right">146.70</td></tr>
+                    <tr><td>04/28/25</td><td>Master Card Payment</td><td class="text-right">26.00</td><td class="text-right"></td><td class="text-right">120.70</td></tr>
+                    <tr><td>04/28/25</td><td>Envoi de Transfer</td><td class="text-right">70.00</td><td class="text-right"></td><td class="text-right">50.70</td></tr>
+                    <tr><td>04/28/25</td><td>Master Card Payment</td><td class="text-right">50.19</td><td class="text-right"></td><td class="text-right">0.51</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-4 border-t text-center text-xs text-gray-500">
+            <p>Succursale domicile: 20 rue Villate - (509) 2815-8814</p>
+            <p>Contact: Telephone: (509) 2815-8800 | Email: info@buh.ht | www.buh.ht</p>
+        </footer>
+    </div>
+
+    <!-- Page 2: May 2025 -->
+    <div class="page">
+        <!-- Header -->
+        <header class="flex justify-between items-start mb-8">
+            <div>
+                <h1 class="buh-logo"><span class="buh-logo-check">✔</span>buh</h1>
+                <p class="text-lg font-semibold text-gray-700">Banque de l'Union Haïtienne</p>
+            </div>
+            <div class="text-right">
+                <p class="font-bold text-lg">ALEXANDRO DISLA</p>
+                <p class="text-gray-600">12, rue Saint-Louis Jeanty, route de Frere</p>
+            </div>
+        </header>
+
+        <!-- Account Info -->
+        <section class="grid grid-cols-2 gap-8 mb-8">
+            <div>
+                <table class="w-full text-sm">
+                    <tr><td class="font-semibold text-gray-800">Date du relevé:</td><td class="text-gray-600">Mai 2025</td></tr>
+                    <tr><td class="font-semibold text-gray-800">Numéro de compte:</td><td class="text-gray-600">14000027155</td></tr>
+                    <tr><td class="font-semibold text-gray-800">Monnaie:</td><td class="text-gray-600">USD</td></tr>
+                </table>
+            </div>
+            <div>
+                <table class="w-full text-sm">
+                    <tr><td class="font-semibold text-gray-800">Code Succursale:</td><td class="text-gray-600">HT0010014</td></tr>
+                    <tr><td class="font-semibold text-gray-800">Code SWIFT BUH:</td><td class="text-gray-600">BUHEHTPPXXX</td></tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Account Summary -->
+        <section class="mb-8">
+            <h2 class="text-xl font-semibold border-b pb-2 mb-4 text-gray-800">Résumé de Compte</h2>
+            <table class="w-full summary-table">
+                <tr>
+                    <td class="text-gray-600">Balance d'ouverture Mai 1st</td>
+                    <td class="text-right font-medium text-gray-800">0.51</td>
+                </tr>
+                 <tr>
+                    <td class="text-gray-600">Total crédits</td>
+                    <td class="text-right font-medium text-green-600">2,682.95</td>
+                </tr>
+                <tr>
+                    <td class="text-gray-600">Total débits</td>
+                    <td class="text-right font-medium text-red-600">(2,671.60)</td>
+                </tr>
+                <tr class="border-t">
+                    <td class="font-bold pt-2 text-gray-800">Balance de fermeture Mai 31st</td>
+                    <td class="text-right font-bold pt-2 text-gray-900">11.86</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Transactions -->
+        <section>
+            <h2 class="text-xl font-semibold border-b pb-2 mb-4 text-gray-800">Transactions</h2>
+            <table class="w-full text-sm">
+                <thead>
+                    <tr><th>Date</th><th>Description</th><th class="text-right">Débit</th><th class="text-right">Crédit</th><th class="text-right">Solde</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>05/05/25</td><td>Transfert SWIFT Recu</td><td class="text-right"></td><td class="text-right">389.00</td><td class="text-right">389.51</td></tr>
+                    <tr><td>05/05/25</td><td>Frais Transfert Swift Entrant</td><td class="text-right">29.00</td><td class="text-right"></td><td class="text-right">360.51</td></tr>
+                    <tr><td>05/05/25</td><td>Envoi de Transfer</td><td class="text-right">160.00</td><td class="text-right"></td><td class="text-right">200.51</td></tr>
+                    <tr><td>05/05/25</td><td>Master Card Payment</td><td class="text-right">100.00</td><td class="text-right"></td><td class="text-right">100.51</td></tr>
+                    <tr><td>05/05/25</td><td>Master Card Payment</td><td class="text-right">100.39</td><td class="text-right"></td><td class="text-right">0.12</td></tr>
+                    <tr><td>05/07/25</td><td>Transfert SWIFT Recu</td><td class="text-right"></td><td class="text-right">906.95</td><td class="text-right">907.07</td></tr>
+                    <tr><td>05/07/25</td><td>Frais Transfert Swift Entrant</td><td class="text-right">29.00</td><td class="text-right"></td><td class="text-right">878.07</td></tr>
+                    <tr><td>05/08/25</td><td>Transfert SPIH Envoye</td><td class="text-right">53.30</td><td class="text-right"></td><td class="text-right">824.77</td></tr>
+                    <tr><td>05/08/25</td><td>Transfert SPIH Envoye</td><td class="text-right">203.30</td><td class="text-right"></td><td class="text-right">621.47</td></tr>
+                    <tr><td>05/08/25</td><td>Retrait Cash en Succursale</td><td class="text-right">610.00</td><td class="text-right"></td><td class="text-right">11.47</td></tr>
+                    <tr><td>05/08/25</td><td>Depot Cash En succursale</td><td class="text-right"></td><td class="text-right">10.00</td><td class="text-right">21.47</td></tr>
+                    <tr><td>05/08/25</td><td>Ventes Monnaies Etrangeres</td><td class="text-right">10.00</td><td class="text-right"></td><td class="text-right">11.47</td></tr>
+                    <tr><td>05/12/25</td><td>Transfert SWIFT Recu</td><td class="text-right"></td><td class="text-right">389.00</td><td class="text-right">400.47</td></tr>
+                    <tr><td>05/12/25</td><td>Frais Transfert Swift Entrant</td><td class="text-right">29.00</td><td class="text-right"></td><td class="text-right">371.47</td></tr>
+                    <tr><td>05/12/25</td><td>Envoi de Transfer</td><td class="text-right">185.00</td><td class="text-right"></td><td class="text-right">186.47</td></tr>
+                    <tr><td>05/12/25</td><td>Master Card Payment</td><td class="text-right">18.00</td><td class="text-right"></td><td class="text-right">168.47</td></tr>
+                    <tr><td>05/12/25</td><td>Master Card Payment</td><td class="text-right">100.01</td><td class="text-right"></td><td class="text-right">68.46</td></tr>
+                    <tr><td>05/13/25</td><td>Transfert SPIH Envoye</td><td class="text-right">68.30</td><td class="text-right"></td><td class="text-right">0.16</td></tr>
+                    <tr><td>05/19/25</td><td>Transfert SWIFT Recu</td><td class="text-right"></td><td class="text-right">389.00</td><td class="text-right">389.16</td></tr>
+                    <tr><td>05/19/25</td><td>Frais Transfert Swift Entrant</td><td class="text-right">29.00</td><td class="text-right"></td><td class="text-right">360.16</td></tr>
+                    <tr><td>05/19/25</td><td>Envoi de Transfer</td><td class="text-right">180.00</td><td class="text-right"></td><td class="text-right">180.16</td></tr>
+                    <tr><td>05/19/25</td><td>Master Card Payment</td><td class="text-right">20.00</td><td class="text-right"></td><td class="text-right">160.16</td></tr>
+                    <tr><td>05/20/25</td><td>Retrait Cash en Succursale</td><td class="text-right">150.00</td><td class="text-right"></td><td class="text-right">10.16</td></tr>
+                    <tr><td>05/20/25</td><td>Depot Cash En succursale</td><td class="text-right"></td><td class="text-right">100.00</td><td class="text-right">110.16</td></tr>
+                    <tr><td>05/20/25</td><td>Ventes Monnaies Etrangeres</td><td class="text-right">100.00</td><td class="text-right"></td><td class="text-right">10.16</td></tr>
+                    <tr><td>05/27/25</td><td>Transfert SWIFT Recu</td><td class="text-right"></td><td class="text-right">389.00</td><td class="text-right">399.16</td></tr>
+                    <tr><td>05/27/25</td><td>Frais Transfert Swift Entrant</td><td class="text-right">29.00</td><td class="text-right"></td><td class="text-right">370.16</td></tr>
+                    <tr><td>05/27/25</td><td>Envoi de Transfer</td><td class="text-right">180.00</td><td class="text-right"></td><td class="text-right">190.16</td></tr>
+                    <tr><td>05/28/25</td><td>Transfert SPIH Envoye</td><td class="text-right">68.30</td><td class="text-right"></td><td class="text-right">121.86</td></tr>
+                    <tr><td>05/28/25</td><td>Retrait Cash en Succursale</td><td class="text-right">110.00</td><td class="text-right"></td><td class="text-right">11.86</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-4 border-t text-center text-xs text-gray-500">
+            <p>Succursale domicile: 20 rue Villate - (509) 2815-8814</p>
+            <p>Contact: Telephone: (509) 2815-8800 | Email: info@buh.ht | www.buh.ht</p>
+        </footer>
+    </div>
+
+    <!-- Page 3: June 2025 -->
+    <div class="page">
+        <!-- Header -->
+        <header class="flex justify-between items-start mb-8">
+            <div>
+                <h1 class="buh-logo"><span class="buh-logo-check">✔</span>buh</h1>
+                <p class="text-lg font-semibold text-gray-700">Banque de l'Union Haïtienne</p>
+            </div>
+            <div class="text-right">
+                <p class="font-bold text-lg">ALEXANDRO DISLA</p>
+                <p class="text-gray-600">12, rue Saint-Louis Jeanty, route de Frere</p>
+            </div>
+        </header>
+
+        <!-- Account Info -->
+        <section class="grid grid-cols-2 gap-8 mb-8">
+            <div>
+                <table class="w-full text-sm">
+                    <tr><td class="font-semibold text-gray-800">Date du relevé:</td><td class="text-gray-600">Juin 2025</td></tr>
+                    <tr><td class="font-semibold text-gray-800">Numéro de compte:</td><td class="text-gray-600">14000027155</td></tr>
+                    <tr><td class="font-semibold text-gray-800">Monnaie:</td><td class="text-gray-600">USD</td></tr>
+                </table>
+            </div>
+            <div>
+                <table class="w-full text-sm">
+                    <tr><td class="font-semibold text-gray-800">Code Succursale:</td><td class="text-gray-600">HT0010014</td></tr>
+                    <tr><td class="font-semibold text-gray-800">Code SWIFT BUH:</td><td class="text-gray-600">BUHEHTPPXXX</td></tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Account Summary -->
+        <section class="mb-8">
+            <h2 class="text-xl font-semibold border-b pb-2 mb-4 text-gray-800">Résumé de Compte</h2>
+            <table class="w-full summary-table">
+                <tr>
+                    <td class="text-gray-600">Balance d'ouverture Juin 1st</td>
+                    <td class="text-right font-medium text-gray-800">11.86</td>
+                </tr>
+                 <tr>
+                    <td class="text-gray-600">Total crédits</td>
+                    <td class="text-right font-medium text-green-600">119.00</td>
+                </tr>
+                <tr>
+                    <td class="text-gray-600">Total débits</td>
+                    <td class="text-right font-medium text-red-600">(120.00)</td>
+                </tr>
+                <tr class="border-t">
+                    <td class="font-bold pt-2 text-gray-800">Balance de fermeture Juin 30th</td>
+                    <td class="text-right font-bold pt-2 text-gray-900">10.86</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Transactions -->
+        <section>
+            <h2 class="text-xl font-semibold border-b pb-2 mb-4 text-gray-800">Transactions</h2>
+            <table class="w-full text-sm">
+                <thead>
+                    <tr><th>Date</th><th>Description</th><th class="text-right">Débit</th><th class="text-right">Crédit</th><th class="text-right">Solde</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>06/02/25</td><td>Transfert SWIFT Recu</td><td class="text-right"></td><td class="text-right">119.00</td><td class="text-right">130.86</td></tr>
+                    <tr><td>06/02/25</td><td>Frais Transfert Swift Entrant</td><td class="text-right">29.00</td><td class="text-right"></td><td class="text-right">101.86</td></tr>
+                    <tr><td>06/05/25</td><td>Envoi de Transfer</td><td class="text-right">45.00</td><td class="text-right"></td><td class="text-right">56.86</td></tr>
+                    <tr><td>06/05/25</td><td>Master Card Payment</td><td class="text-right">46.00</td><td class="text-right"></td><td class="text-right">10.86</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-4 border-t text-center text-xs text-gray-500">
+            <p>Succursale domicile: 20 rue Villate - (509) 2815-8814</p>
+            <p>Contact: Telephone: (509) 2815-8800 | Email: info@buh.ht | www.buh.ht</p>
+        </footer>
+    </div>
+
+</body>
+</html>
