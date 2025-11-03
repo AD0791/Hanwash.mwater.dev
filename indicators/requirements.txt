@@ -6,3 +6,4 @@ ipykernel
 ipython
 jupyter
 openpyxl
+fuzzywuzzy
