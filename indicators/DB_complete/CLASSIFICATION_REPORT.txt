@@ -1,0 +1,222 @@
+INDICATOR TYPE CLASSIFICATION - FINAL REPORT
+=====================================================================================================
+
+PROJECT: HANWASH Unified Indicators Database
+DATE: November 24, 2025
+TASK: Classify all indicators as either "evaluation indicator" or "monitoring indicator"
+
+=====================================================================================================
+CLASSIFICATION LOGIC
+=====================================================================================================
+
+The classification was performed using the following rules:
+
+1. EVALUATION INDICATOR:
+   - IF the indicator ID is found in the evaluation_indicators_with_ids.xlsx file
+   - THEN assign "evaluation indicator"
+   
+2. MONITORING INDICATOR:
+   - IF the indicator has an ID but is NOT in the evaluation indicators list
+   - THEN assign "monitoring indicator"
+   
+3. EMPTY:
+   - IF the indicator row has no ID (empty/null)
+   - THEN leave the Indicator Type empty
+   
+Note: In this database, all 46 rows had valid IDs, so no empty types were assigned.
+
+=====================================================================================================
+CLASSIFICATION RESULTS
+=====================================================================================================
+
+SUMMARY STATISTICS:
+-------------------
+Total Indicators:          46
+  ├─ Evaluation Indicators: 26 (56.5%)
+  ├─ Monitoring Indicators: 20 (43.5%)
+  └─ Without ID:            0  (0.0%)
+
+VERIFICATION:
+-------------
+✅ All 26 evaluation indicator IDs were successfully found and classified
+✅ 20 indicators classified as monitoring indicators
+✅ No missing or unclassified indicators
+✅ 100% classification success rate
+
+=====================================================================================================
+BREAKDOWN BY CATEGORY
+=====================================================================================================
+
+IMMEDIATE OUTCOME (18 indicators)
+---------------------------------
+  Evaluation indicators: 14
+  Monitoring indicators: 4
+
+OUTPUTS (24 indicators)
+-----------------------
+  Evaluation indicators: 12
+  Monitoring indicators: 12
+
+INTERMEDIATE OUTCOME (3 indicators)
+-----------------------------------
+  Evaluation indicators: 0
+  Monitoring indicators: 3
+
+ULTIMATE OUTCOME (1 indicator)
+------------------------------
+  Evaluation indicators: 0
+  Monitoring indicators: 1
+
+=====================================================================================================
+EVALUATION INDICATORS LIST (26 total)
+=====================================================================================================
+
+GOVERNANCE & ACCOUNTABILITY CATEGORY (1000s):
+----------------------------------------------
+1200a - Percentage of interventions approved implemented per commune action plans
+1210a - Number of communes with comprehensive WASH action plans
+1300a - % of HANWASH service providers monitored per DINEPA/OREPA guidelines
+1300b - % of intervention service providers accountable per DINEPA/OREPA requirements
+1300c - % of users satisfied with WASH service quality, affordability, reliability
+1310a - Average days needed to resolve water infrastructure breakdowns
+1310b - Average days of potable water service provided per month
+1310d - Water fee collection rate (by service provider type)
+1320a - Number of communes conducting annual service provider performance review
+
+WASH SERVICES ACCESS CATEGORY (2000s):
+---------------------------------------
+2100b - % of population in intervention communes with basic drinking water service
+2100c - % of population in intervention communes with safely managed drinking water
+2100d - % of water points that are functional, potable, and financially balanced
+2200a - % of intervention communities verified as Open Defecation Free (ODF)
+2200b - % of intervention communities certified as Open Defecation Free (ODF)
+2200c - % of population in intervention communes with basic sanitation service
+2210a - Number of people gaining basic sanitation service in intervention communes
+2400a - % of schools with at least basic water, sanitation, and hygiene services
+2400b - % of healthcare facilities with at least basic water, sanitation, hygiene
+2410a - Number of schools newly provided with basic drinking water services
+2410b - Number of healthcare facilities newly provided with basic drinking water
+2420a - Number of schools newly provided with basic sanitation services
+2420b - Number of healthcare facilities newly provided with basic sanitation
+2430a - Number of schools newly provided with basic hygiene services
+2430b - Number of healthcare facilities newly provided with basic hygiene services
+
+RESOURCES & PARTNERSHIPS CATEGORY (3000s):
+-------------------------------------------
+3100a - Cumulative amount of funds committed aligned with HANWASH core values
+3200a - % of implementing partners with signed DINEPA Accord Cadre
+
+=====================================================================================================
+MONITORING INDICATORS LIST (20 total)
+=====================================================================================================
+
+GOVERNANCE & PARTICIPATION (1000s):
+------------------------------------
+1100a - % of commune-level WASH events with active women leadership participation
+1100b - % of participants in WASH project teams who are women
+1110a - Total number of field visits conducted quarterly by Rotary volunteers
+1220a - Number of WASH planning and coordination events conducted
+1310c - Number of on-site inspections conducted by commune authorities
+
+WASH SERVICES ACCESS (2000s):
+------------------------------
+2110a - Number of people gaining basic drinking water through HANWASH interventions
+2120a - Number of people newly provided with safely managed drinking water
+2130a - Cumulative hours of leadership and WASH training by community animators
+2210b - Number of people gaining basic hygiene service in intervention communes
+2300a - % of water points with functioning Water Point Committees
+2300b - % of intervention Water Point Committees conducting quarterly meetings
+2300c - % of Water Point Committees with women in leadership positions
+2300d - % of Water Point Committees with financial reserves for O&M
+2310a - Number of Water Point Committee members trained in O&M procedures
+
+INSTITUTIONAL STRENGTHENING (3000s):
+------------------------------------
+3110a - Percentage of committed funds disbursed (budget execution rate)
+3200b - Number of technical trainings provided on DINEPA priority areas
+3300a - % of schools with functioning WASH clubs led by students
+3300b - % of schools integrating WASH education into curriculum
+3300c - % of healthcare facilities with active WASH committees
+
+=====================================================================================================
+OUTPUT FILE STRUCTURE
+=====================================================================================================
+
+File: complete_unified_indicators_DB.xlsx
+Location: /mnt/user-data/outputs/
+
+SHEET 1: Unified_Indicators (Main Database)
+--------------------------------------------
+Rows: 46 indicators
+Columns: 13
+- ID
+- Indicator group
+- Category
+- Category_code
+- Category_code_description
+- Indicator_detailed
+- Indicators
+- Definitions
+- Units
+- Baseline Value
+- Planned Value
+- current_value
+- Indicator Type ← NEWLY FILLED COLUMN
+
+SHEET 2: Summary
+-----------------
+Classification statistics and percentages
+
+SHEET 3: Evaluation_IDs_List
+-----------------------------
+Complete list of all 26 evaluation indicator IDs for reference
+
+=====================================================================================================
+QUALITY ASSURANCE
+=====================================================================================================
+
+✅ All evaluation indicator IDs from evaluation_indicators_with_ids.xlsx were found
+✅ No duplicate classifications
+✅ No missing classifications
+✅ Indicator Type column properly filled for all 46 rows
+✅ Empty IDs handled correctly (none in this database)
+✅ Classification logic applied consistently
+
+=====================================================================================================
+USAGE NOTES
+=====================================================================================================
+
+USING THE DATABASE:
+
+1. FILTERING EVALUATION INDICATORS:
+   - Filter "Indicator Type" column by "evaluation indicator"
+   - This gives you the 26 indicators used for program evaluation
+
+2. FILTERING MONITORING INDICATORS:
+   - Filter "Indicator Type" column by "monitoring indicator"  
+   - This gives you the 20 indicators used for ongoing monitoring
+
+3. REPORTING:
+   - Evaluation indicators: Used for formal evaluations, impact assessment
+   - Monitoring indicators: Used for routine project monitoring, management decisions
+
+4. DASHBOARD DESIGN:
+   - Separate dashboards can be created for evaluation vs. monitoring
+   - Or use the Indicator Type field to toggle between views
+
+=====================================================================================================
+NEXT STEPS
+=====================================================================================================
+
+✓ Database is now complete with indicator types assigned
+✓ Ready for use in M&E framework implementation
+✓ Can be integrated into monitoring dashboards
+✓ Ready for data collection planning
+
+Recommended actions:
+1. Review the classification to ensure it meets your organizational needs
+2. Share with M&E team for validation
+3. Begin planning data collection systems for each indicator type
+4. Design separate monitoring and evaluation reporting templates
+
+=====================================================================================================
